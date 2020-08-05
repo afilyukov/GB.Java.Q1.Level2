@@ -1,16 +1,16 @@
 public class ParseArrayToInts {
     private final static int ARRAY_SIZE = 4;
 
-    public int[][] toInt(String[][] strings) throws MyArrayDataException {
+    public int[][] toInt(String[][] strings) throws LocalDataException {
         if (strings.length > ARRAY_SIZE || strings.length < ARRAY_SIZE) {
-            throw new MyArraySizeException(
+            throw new LocalSizeException(
                     String.format("Array has a wrong length %s. Required size is %s", strings.length, ARRAY_SIZE)
             );
         }
 
         for (int i = 0; i < strings.length; i++) {
             if (strings[i].length > ARRAY_SIZE || strings[i].length < ARRAY_SIZE) {
-                throw new MyArraySizeException(
+                throw new LocalSizeException(
                         String.format("Array has a wrong height %s. Required size is %s", strings[i].length, ARRAY_SIZE)
                 );
             }
@@ -23,7 +23,7 @@ public class ParseArrayToInts {
                 try {
                     ints[i][j] = Integer.parseInt(strings[i][j]);
                 } catch (NumberFormatException e) {
-                    throw new MyArrayDataException("Not digit was found:  " + strings[i][j] + " . Please correct and return", e);
+                    throw new LocalDataException("Not digit was found:  " + strings[i][j] + " . Please correct and return", e);
                 }
             }
         }

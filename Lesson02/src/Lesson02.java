@@ -24,7 +24,7 @@ public class Lesson02 {
             int[][] ints = newArray.toInt(strings);
             System.out.println("Success!");
             printArray(ints);
-        } catch (MyArraySizeException | MyArrayDataException ex) {
+        } catch (LocalSizeException | LocalDataException ex) {
             System.out.println("Something went wrong!");
             ex.printStackTrace();
         }
