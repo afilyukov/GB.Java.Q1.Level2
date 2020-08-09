@@ -22,7 +22,7 @@ public class ChatForm extends JFrame {
 
         JTextField inputField = new JTextField();
         inputField.addActionListener(new ActionListener() {
-            private StringBuilder sb = new StringBuilder();
+            private StringBuilder sb = new StringBuilder(); //  Поправлено, чтобы история не "обнулялась"
 
             @Override
             public void actionPerformed(ActionEvent e) {
