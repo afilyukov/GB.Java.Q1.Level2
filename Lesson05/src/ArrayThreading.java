@@ -57,7 +57,11 @@ public class ArrayThreading {
     }
 
     private void mergeArrays(float[] arr1, float[] arr2) {
-        System.arraycopy(arr1, 0, arr, 0, H);
-        System.arraycopy(arr2, 0, arr, H, H);
+        synchronized (arr1) {
+            synchronized (arr2) {
+                System.arraycopy(arr1, 0, arr, 0, H);
+                System.arraycopy(arr2, 0, arr, H, H);
+            }
+        }
     }
 }
