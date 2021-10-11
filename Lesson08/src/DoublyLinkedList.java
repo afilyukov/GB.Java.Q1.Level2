@@ -9,6 +9,8 @@ public class DoublyLinkedList {
         return head == null;
     }
 
+
+
     public int getSize() {
         return size;
     }

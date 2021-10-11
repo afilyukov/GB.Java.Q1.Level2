@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GB.Q1.Level2.iml" filepath="$PROJECT_DIR$/GB.Q1.Level2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson01/Lesson01.iml" filepath="$PROJECT_DIR$/Lesson01/Lesson01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson02/Lesson02.iml" filepath="$PROJECT_DIR$/Lesson02/Lesson02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson03/Lesson03.iml" filepath="$PROJECT_DIR$/Lesson03/Lesson03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson04/Lesson04.iml" filepath="$PROJECT_DIR$/Lesson04/Lesson04.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson05/Lesson05.iml" filepath="$PROJECT_DIR$/Lesson05/Lesson05.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson06/Lesson06.iml" filepath="$PROJECT_DIR$/Lesson06/Lesson06.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson07/Lesson07.iml" filepath="$PROJECT_DIR$/Lesson07/Lesson07.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lesson08/Lesson08.iml" filepath="$PROJECT_DIR$/Lesson08/Lesson08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson01/Lesson01 Generics.iml" filepath="$PROJECT_DIR$/Lesson01/Lesson01 Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson02/Lesson02 Exceptions.iml" filepath="$PROJECT_DIR$/Lesson02/Lesson02 Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson03/Lesson03 Collections.iml" filepath="$PROJECT_DIR$/Lesson03/Lesson03 Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson04/Lesson04 GUI.iml" filepath="$PROJECT_DIR$/Lesson04/Lesson04 GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson05/Lesson05 Multithreading.iml" filepath="$PROJECT_DIR$/Lesson05/Lesson05 Multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson06/Lesson06 Console Chat.iml" filepath="$PROJECT_DIR$/Lesson06/Lesson06 Console Chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson07/Lesson07 Network chat 1.iml" filepath="$PROJECT_DIR$/Lesson07/Lesson07 Network chat 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson08/Lesson08 Data structures(self).iml" filepath="$PROJECT_DIR$/Lesson08/Lesson08 Data structures(self).iml" />
     </modules>
   </component>
 </project>
