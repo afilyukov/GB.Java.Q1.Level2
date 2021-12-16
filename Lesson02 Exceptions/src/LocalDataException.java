@@ -1,6 +1,5 @@
 public class LocalDataException extends Exception {
-    public LocalDataException() {
-    }
+    public LocalDataException() {}
 
     public LocalDataException(String message) {
         super(message);
